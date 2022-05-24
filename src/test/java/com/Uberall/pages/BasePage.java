@@ -17,8 +17,6 @@ public abstract class BasePage {
 
     public void navigateToModule(String module) {
 
-        Actions actions = new Actions(Driver.get());
-
         String moduleLocator = "//nav[@class='nav__mobile']//ul/li/a[normalize-space()='" + module + "']";
 
        WebElement Module = Driver.get().findElement(By.xpath(moduleLocator));
