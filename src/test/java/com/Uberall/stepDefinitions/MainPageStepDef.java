@@ -34,9 +34,9 @@ public class MainPageStepDef {
     public void user_clicks_module(String module1, String module2) {
         WebElement mainMenu =Driver.get().findElement(By.xpath("//div/header[@class='header']"));
         Actions actions =new Actions(Driver.get());
-
         actions.moveToElement(mainMenu);
-        actions.click(mainMenu).build().perform();
+        actions.click(mainMenu).perform();
+
         BrowserUtils.waitFor(2);
        dashboardPage.navigateToModule(module1);
 
@@ -47,8 +47,7 @@ public class MainPageStepDef {
     @Then("user should see {string} page")
     public void user_should_see_page(String expectedTitle) {
         BrowserUtils.waitFor(5);
-        String actualTitle = dashboardPage.PageTitle.getText();
-        Assert.assertEquals(expectedTitle.toUpperCase(),actualTitle);
+        Assert.assertEquals(expectedTitle.toUpperCase(),Driver.get().getTitle());
 
     }
 

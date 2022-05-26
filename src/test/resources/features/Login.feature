@@ -14,12 +14,7 @@ Feature: Login Functionality
       Examples:
         | email        | password |
         |asdfgh@as.com | 1234566  |
-        |asdfgh@as.com | 1234566  |
-        |asfdsf@as.com | 1234566  |
-        |afgsdfg@as.com | 1234566  |
-        |afgbgsdg@as.com | 1234566  |
-        |dfghthrhb@as.com | 1234566  |
-        |dfbhdfhg@as.com | 1234566  |
-        |asdfsefggbgh@as.com | 1234566  |
+        |asdfgh@as.com | 577577588  |
+        |asfdsf@as.com | dgdfıkljljl|
 
 

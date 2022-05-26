@@ -7,7 +7,7 @@ Feature: Check Modules Functionality
     Examples:
       | module1 | module2|
       |CoreX|Mission Control|
-      |Solutions|Retail|
-      |CoreX |Listings|
-      |CoreX|Reviews|
-      |Company  |About Us|
+      #|Solutions|Retail|
+      #|CoreX |Listings|
+      #|CoreX|Reviews|
+      #|Company  |About Us|
